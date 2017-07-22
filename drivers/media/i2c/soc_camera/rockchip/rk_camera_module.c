@@ -1224,7 +1224,7 @@ int pltfrm_camera_module_set_pm_state(
 			PLTFRM_CAMERA_MODULE_PIN_STATE_ACTIVE);
 
 		pltfrm_camera_module_set_pin_state(
-			sd,)
+			sd,
 			PLTFRM_CAMERA_MODULE_PIN_RESET,
 			PLTFRM_CAMERA_MODULE_PIN_STATE_ACTIVE);
 		usleep_range(100, 300);
