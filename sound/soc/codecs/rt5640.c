@@ -1993,6 +1993,8 @@ static int rt5640_set_bias_level(struct snd_soc_codec *codec,
 			ret = clk_prepare_enable(rt5640->mclk);
 			if (ret)
 				return ret;
+			ret = clk_set_rate(rt5640->mclk, 11289600);
+
 		}
 		break;
 
